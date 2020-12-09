@@ -1,0 +1,54 @@
+.back{
+    background-image: url(home.png);
+    /* background-repeat: no-repeat;   */
+    background-size: cover; 
+    background-position: center center;
+}
+.cute{
+    overflow: hidden;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.btn.btn-primary {
+    background: #fab95b;
+    border-color: #fab95b;
+    color: #fff;
+}
+.btn {
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.about{
+    background-color:white;
+    background-size: cover; 
+    background-position: center center;
+}
+
+.intro{
+    left: 5%;
+}
+.tryout{
+    display:flex;
+    justify-content: space-between;
+}
+.picsA{
+    width: 25%;
+    /* height:400px; */
+}
