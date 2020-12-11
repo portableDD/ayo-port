@@ -35,20 +35,12 @@
 .btn:hover{
     opacity: 0.8;
 }
-.about{
-    background-color:white;
-    background-size: cover; 
-    background-position: center center;
-}
 
 .intro{
     left: 5%;
 }
-.tryout{
-    display:flex;
-    justify-content: space-between;
-}
-.picsA{
-    width: 25%;
-    /* height:400px; */
+.feel{
+    background:white;
+    border-color: blue;
+    color: black;
 }
