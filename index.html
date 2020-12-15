@@ -14,7 +14,7 @@
             <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light justify-content-center">
                 <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PROJECT</a></li>
+                        <a class="nav-link" href="#projectSection">PROJECT</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="#AboutSection">ABOUT</a></li>
                     <li class="nav-item">
@@ -34,10 +34,10 @@
                         <h5 style="margin: 5;" class="text-secondary">Waya multilinks LTD</h5>
                         <p class="text-white">I am a Senior Software Developer working at Waya multilinks LTD</p>
                         <div>
-                            <a href="#contact-section" class="btn btn-primary rounded-pill">
+                            <a href="#contact-section" target="_blank" class="btn btn-primary rounded-pill">
                                 Contact Me
                             </a>
-                            <a href="https://curriculum-vitae1.netlify.app/" class="btn btn-primary rounded-pill">
+                            <a href="https://pdfhost.io/v/D6AcGiLLL_Ayooluwa_A_Olosunde_My_CVpdf.pdf" target="_blank" class="btn btn-primary rounded-pill">
                                 DOWNLOAD CV
                             </a>
                         </div>
@@ -47,7 +47,10 @@
                             </a>
                             <a href="https://twitter.com/@ayolovisgod" target="_blank">
                                 <i class="fa fa-twitter text-warning"></i>
-                            </a>    
+                            </a> 
+                            <a href="https://github.com/Lovisgod" target="_blank">
+                                <i class="fa fa-github text-warning"></i>
+                            </a>   
                         </div>
                     </div>
                 </div>
@@ -67,7 +70,7 @@
                     </p>
                 </div>
                 <div class="col-lg-8">
-                    <h3 class="text-white">TECHNICAL SKILLS</h3>
+                    <h3 class="text-white mt-4">TECHNICAL SKILLS</h3>
                     <div class="mb-5">
                         <strong>Android Native</strong>
                         <div class="progress">
@@ -143,38 +146,99 @@
                 </div>  
             </div>
         </div> 
+        <div id="projectSection" class="project pt-4 bg-light container-fluid">
+            <h1 class="pt-5 text-center">PROJECTS</h1>
+            <div class="row">
+                <div class=" col-md-6 mt-4 ml-3  item d-flex h-100">
+                    <div class="m-4 item-img">
+                        <img src="./cvpics.jpg" alt="image to project" class="pray">
+                    </div>
+                    <div class="mt-4 item-about">
+                        <h3><b>Curriculum Vitea</b></h3>
+                        <p>
+                            <a href="https://pdfhost.io/v/D6AcGiLLL_Ayooluwa_A_Olosunde_My_CVpdf.pdf" target="_blank">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 mt-4 item d-flex h-100">
+                    <div class="m-4 item-img">
+                        <img src="./chess9ja.jpg" alt="image to project" class="free">
+                    </div>
+                    <div class="mt-4 item-about">
+                        <h3><b>Chess9JA</b></h3>
+                        <p>
+                            <a href="https://chess-site.herokuapp.com/" target="_blank">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-md-6 mt-4 ml-3 item d-flex h-100">
+                    <div class="m-4 item-img">
+                        <img src="./project1 img.webp" alt="image to project">
+                    </div>
+                    <div class="mt-4 item-about">
+                        <h3><b>Catholic Hymn and Liturgy</b></h3>
+                        <p>
+                            <a href="http://bit.ly/catholic-hymn-liturgy" target="_blank">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class=" col-md-4 mt-4  item d-flex h-100">
+                    <div class="m-4 item-img">
+                        <img src="./transporta.webp" alt="image to project">
+                    </div>
+                    <div class="mt-4 item-about">
+                        <h3><b>Transporta Ng</b></h3>
+                        <p>
+                            <a href="http://bit.ly/transporta-ng" target="_blank">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="ContactSection" class=" pt-4 bg-dark container-fluid">
             <h3 class="pt-5 text-center text-white">CONTACT ME</h3>
-            <form class="needs-validation" novalidate>
+            <form class="needs-validation" novalidate onsubmit="">
                 <div class="form-row pt-5">
                   <div class="form-group col-md-6">
                     <label for="inputEmail4" class="text-white">First Name</label>
-                    <input type="text" class="form-control" id="inputEmail4">
+                    <input type="text" class="form-control" id="inputEmail4" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputPassword4" class="text-white">Last Name</label>
-                    <input type="text" class="form-control" id="inputPassword4">
+                    <input type="text" class="form-control" id="inputPassword4" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputAddress" class="text-white">Email Address</label>
-                  <input type="email" class="form-control" id="inputAddress">
+                  <input type="email" class="form-control" id="inputAddress" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid  email address.
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="inputAddress2" class="text-white">Subject Of The Message</label>
-                  <input type="text" class="form-control" id="inputAddress2">
+                  <input type="text" class="form-control" id="inputAddress2" required>
                 </div>
                 <div class="form-group">
                     <label for="validationTextarea" class="text-white">Type your message here </label>
-                    <textarea class="form-control " id="validationTextarea" required></textarea>
+                    <textarea class="form-control " id="validationTextarea" 
+                    placeholder="message, phone number e.t.c" required></textarea>
                 </div>
                 <div class=" pt-3 pb-5">
-                    <button type="submit" class="btn feel rounded-pill">Sign in</button>
+                    <button type="submit" class="btn feel rounded-pill">Send Message</button>
                 </div>
                
               </form>
         </div>
-        <div class="container">
+        <footer class="container bg-light">
             <div class="row">
                 <div class="col-lg-4 info">
                     <h5>OLOSUNDE AYOOLUWA</h5>
@@ -187,8 +251,8 @@
                 </div>
                 <div class=" col-lg-2 quick">
                     <h5>QUICK LINK</h5>
-                    <span>About me</span><br>
-                    <span>Contact me</span>
+                    <span><a href="#AboutSection" target="_blank">About me</a></span><br>
+                    <span><a href="#ContactSection" target="_blank">Contact me</a></span>
                 </div>
                 <div class="col=lg-2 follow">
                     <h5 class="ml-4">FOLLOW ME</h5>
@@ -206,9 +270,11 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </footer>
    </div>
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
 <script src="./bootstrap/js/bootstrap.bundle.min.js" ></script>
+<script src="./index.js"></script>
 </html>

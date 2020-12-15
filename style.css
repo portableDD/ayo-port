@@ -7,7 +7,6 @@
 .cute{
     overflow: hidden;
 }
-
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -41,6 +40,40 @@
 }
 .feel{
     background:white;
-    border-color: blue;
+    border-color: whitesmoke;
     color: black;
+}
+.project{
+    justify-content: space-between;
+}
+.item{
+    margin-bottom: 15px;
+    background: #fff;
+    padding-bottom: 8px;
+    box-shadow: 0px 0px 10px -3px #ccc;
+    transition: all 0.4s ease-in-out;
+}
+.item:hover{
+    box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
+    top: -3px;
+    /* transform: scale(1.1); */
+}
+.item-img{
+    flex: 0 0 60px;
+}
+.item-about a{
+    text-decoration: none;
+    color: coral;
+}
+.quick a{
+    text-decoration: none;
+    color: black;
+}
+.pray{
+    width: 150px;
+    height: 150px;
+}
+.free{
+    width: 150px;
+    height: 150px;
 }
