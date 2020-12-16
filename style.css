@@ -67,7 +67,6 @@
 }
 .quick a{
     text-decoration: none;
-    color: black;
 }
 .pray{
     width: 150px;
@@ -76,4 +75,8 @@
 .free{
     width: 150px;
     height: 150px;
+}
+
+.project a{
+    text-decoration: none;
 }
