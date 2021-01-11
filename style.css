@@ -1,11 +1,13 @@
 .back{
     background-image: url(home.png);
-    /* background-repeat: no-repeat;   */
     background-size: cover; 
     background-position: center center;
 }
 .cute{
     overflow: hidden;
+}
+.jes{
+    visibility: hidden; 
 }
 .fa {
     padding: 20px;
@@ -56,7 +58,6 @@
 .item:hover{
     box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
     top: -3px;
-    /* transform: scale(1.1); */
 }
 .item-img{
     flex: 0 0 60px;
@@ -79,4 +80,9 @@
 
 .project a{
     text-decoration: none;
+}
+@media (max-width:768px) {
+    .jes{
+        visibility: visible;
+    }
 }
