@@ -81,6 +81,12 @@
 .project a{
     text-decoration: none;
 }
+
+.copy{
+    text-align: center;
+    padding: 2%;
+}
+
 @media (max-width:768px) {
     .jes{
         visibility: visible;
